@@ -45,49 +45,6 @@ A full-stack GitHub-like platform that allows developers to manage repositories,
 
 ---
 
-## 📂 Project Structure
-
-```
-repo-hub/
-│
-├── client/          # React frontend
-├── server/          # Node.js backend
-├── models/          # MongoDB schemas
-├── routes/          # API routes
-├── controllers/     # Logic for routes
-├── config/          # OAuth & DB config
-└── README.md
-```
-
----
-
-## ⚙️ Installation & Setup
-
-### 1. Clone the repository
-
-```
-git clone https://github.com/your-username/repo-hub.git
-cd repo-hub
-```
-
-### 2. Install dependencies
-
-#### Backend
-
-```
-cd server
-npm install
-```
-
-#### Frontend
-
-```
-cd client
-npm install
-```
-
----
-
 ## 🔑 Environment Variables
 
 Create a `.env` file in the server folder:
@@ -97,24 +54,6 @@ MONGO_URI=your_mongodb_connection
 GITHUB_CLIENT_ID=your_client_id
 GITHUB_CLIENT_SECRET=your_client_secret
 SESSION_SECRET=your_secret_key
-```
-
----
-
-## ▶️ Running the App
-
-### Start Backend
-
-```
-cd server
-npm run dev
-```
-
-### Start Frontend
-
-```
-cd client
-npm start
 ```
 
 
